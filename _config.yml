@@ -14,6 +14,12 @@ M# Welcome to Jekyll!
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+layout: single
+permalink: /
+title: "Anne Marieke Doornweerd"
+author_profile: true
+
+
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
