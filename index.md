@@ -4,7 +4,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: "/assets/images/your-background.jpg"
+  overlay_image: "docs/assets/images/pexels-juanpphotoandvideo-1242348.jpg" 
   caption: "A bright future starts with research."
 permalink: /
 ---
