@@ -5,6 +5,7 @@
 /*
    Typography
    ========================================================================== */
+$global-font-family: "Poppins", sans-serif;
 
 $doc-font-size: 16px !default;
 $doc-font-size-medium: $doc-font-size * 1.125 !default;
@@ -67,13 +68,17 @@ $lighter-gray: mix(#fff, $gray, 90%) !default;
 $background-color: #fff !default;
 $code-background-color: #fafafa !default;
 $code-background-color-dark: $light-gray !default;
-$text-color: $dark-gray !default;
+
+$text-color: #333 !default;
+
 $muted-text-color: mix(#fff, $text-color, 20%) !default;
 $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
 $footer-background-color: $lighter-gray !default;
 
-$primary-color: #6f777d !default;
+$primary-color: #ff6b6b;  // Vibrant coral
+$secondary-color: #4ecdc4;  // Teal
+
 $success-color: #3fa63f !default;
 $warning-color: #d67f05 !default;
 $danger-color: #ee5f5b !default;
@@ -114,7 +119,7 @@ $youtube-color: #bb0000 !default;
 $xing-color: #006567 !default;
 
 /* links */
-$link-color: mix(#000, $info-color, 20%) !default;
+$link-color: #ff9f1c;
 $link-color-hover: mix(#000, $link-color, 25%) !default;
 $link-color-visited: mix(#fff, $link-color, 15%) !default;
 $masthead-link-color: $primary-color !default;
