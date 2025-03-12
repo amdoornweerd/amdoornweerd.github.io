@@ -24,6 +24,7 @@ author_profile: true
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Anne Marieke Doornweerd"
+masthead_title           : "Anne Marieke Doornweerd"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Anne Marieke Doornweerd"
