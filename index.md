@@ -1,11 +1,6 @@
 ---
 title: "Welcome!"
-layout: splash
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: "docs/assets/images/pexels-juanpphotoandvideo-1242348.jpg" 
-  caption: "A bright future starts with research."
+layout: home_custom
 permalink: /
 ---
 
@@ -16,3 +11,4 @@ Welcome to my personal website! Here you'll find:
 📩 How to **contact me** for lectures, collaborations, and advisory roles
 
 Feel free to explore!
+
