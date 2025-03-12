@@ -8,8 +8,9 @@ main:
      url: "/research/"
    - title: "In de Media"
      url: "/indemedia/"
-   - title: "Workshops/Lectures"
+   - title: "Workshops|Lectures"
      url: "/workshopslectures/"
-  - title: "Contact"
-    url: "/contact/"
+   - title: "Contact"
+     url: "/Contact/"
+
 
