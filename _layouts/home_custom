@@ -1,23 +1,12 @@
+---
+layout: default
+---
+
+<!-- Include site navigation -->
+{% include header.html %}
+
+<!-- Main Content -->
 {{ content }}
 
-<div class="custom-layout">
-  <h2>Welcome to My Website</h2>
-  <p>Explore my research, media features, and workshops.</p>
-</div>
-
-<div class="two-column">
-  <div>
-    <h3>About Me</h3>
-    <p>Brief introduction...</p>
-  </div>
-  <div>
-    <img src="/assets/images/profile.jpg" alt="Profile">
-  </div>
-</div>
-
-<div class="overlapping">
-  <img src="/assets/images/research.jpg" alt="Research Image">
-  <p style="position: relative; z-index: 3;">
-    My research focuses on women's mental health...
-  </p>
-</div>
+<!-- Include site footer -->
+{% include footer.html %}
