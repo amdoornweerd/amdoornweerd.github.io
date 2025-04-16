@@ -482,3 +482,69 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+/* === Media Section Cards === */
+
+.media-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  justify-content: space-between;
+}
+
+.media-card {
+  flex: 1 1 30%;
+  background: #f7f7f7;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  min-width: 260px;
+}
+
+.media-card:hover {
+  transform: translateY(-5px);
+}
+
+.media-card h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #{{ site.color.primary }};
+}
+
+.media-card ul {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+  margin-bottom: 0;
+}
+
+.media-card li {
+  margin-bottom: 0.5rem;
+}
+
+.media-card a {
+  color: #{{ site.color.primary }};
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.media-card a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive stacking on small screens */
+@media (max-width: 767px) {
+  .media-grid {
+    flex-direction: column;
+  }
+
+  .media-card {
+    flex: 1 1 100%;
+  }
+}
+
