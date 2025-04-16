@@ -4,84 +4,20 @@
     <hr class="star-primary">
     <div class="row">
 
-      <!-- Workshops -->
-      <div class="col-sm-4 portfolio-item">
-        <a href="#modal-workshops" class="portfolio-link" data-toggle="modal">
-          <div class="caption text-center">
-            <div class="caption-content">
-              <i class="fas fa-chalkboard-teacher fa-3x"></i>
-              <h4>Workshops</h4>
+      {% for post in site.posts %}
+        <div class="col-sm-4 portfolio-item">
+          <a href="#{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
             </div>
-          </div>
-        </a>
-      </div>
-
-      <!-- Webinars -->
-      <div class="col-sm-4 portfolio-item">
-        <a href="#modal-webinars" class="portfolio-link" data-toggle="modal">
-          <div class="caption text-center">
-            <div class="caption-content">
-              <i class="fas fa-video fa-3x"></i>
-              <h4>Webinars</h4>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <!-- Science Writing -->
-      <div class="col-sm-4 portfolio-item">
-        <a href="#modal-writing" class="portfolio-link" data-toggle="modal">
-          <div class="caption text-center">
-            <div class="caption-content">
-              <i class="fas fa-pen-nib fa-3x"></i>
-              <h4>Science Writing</h4>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <!-- Consulting -->
-      <div class="col-sm-4 portfolio-item">
-        <a href="#modal-consulting" class="portfolio-link" data-toggle="modal">
-          <div class="caption text-center">
-            <div class="caption-content">
-              <i class="fas fa-user-tie fa-3x"></i>
-              <h4>Consulting</h4>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <!-- Lectures -->
-      <div class="col-sm-4 portfolio-item">
-        <a href="#modal-lectures" class="portfolio-link" data-toggle="modal">
-          <div class="caption text-center">
-            <div class="caption-content">
-              <i class="fas fa-microphone-alt fa-3x"></i>
-              <h4>Lectures</h4>
-            </div>
-          </div>
-        </a>
-      </div>
+            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          </a>
+        </div>
+      {% endfor %}
 
     </div>
   </div>
 </section>
-
-
-<div class="portfolio-modal modal fade" id="modal-workshops" tabindex="-1" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <h2>Workshops</h2>
-      <hr class="star-primary">
-      <p>I offer interactive, science-based workshops on psychological topics, mental health, and hormonal well-being. Perfect for academic, corporate, and public settings.</p>
-      <h4>Examples:</h4>
-      <ul>
-        <li>Stress & Performance – Workshop at Strategy& (PwC)</li>
-        <li>Emotion and Hormones – University of Amsterdam</li>
-      </ul>
-      <button class="btn btn-outline" data-dismiss="modal">Close</button>
-    </div>
-  </div>
-</div>
 
