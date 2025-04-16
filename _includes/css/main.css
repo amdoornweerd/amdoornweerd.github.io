@@ -551,3 +551,23 @@ footer .footer-below {
   }
 }
 
+
+.research-item h3 {
+  margin-top: 0;
+  font-size: 1rem; /* Reduced from 1.2rem */
+  color: #{{ site.color.primary }};
+}
+
+.research-item p {
+  font-size: 0.95rem; /* Matches your site's paragraph size (~16px) */
+  line-height: 1.6;
+}
+
+.research-item a {
+  font-size: 0.9rem; /* Slightly smaller for the link */
+  color: #{{ site.color.primary }};
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
