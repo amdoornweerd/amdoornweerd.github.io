@@ -2,7 +2,7 @@
 layout: default
 modal-id: modal-workshop
 date: 2024-04-10
-img: workshop.png
+img: workshop.jpg
 alt: Workshop icon
 project-date: April 2024
 client: Strategy&
