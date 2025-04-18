@@ -592,13 +592,13 @@ section:not(.success) h2,
 section:not(.success) h3,
 section:not(.success) h4,
 section:not(.success) a {
-  color: #{{ site.color.secondary-dark }};
+color: #233140;
 }
 
 
 section:not(.success),
 section:not(.success) * {
-  color: #{{ site.color.secondary-dark }};
+color: #233140;
 }
 
 
