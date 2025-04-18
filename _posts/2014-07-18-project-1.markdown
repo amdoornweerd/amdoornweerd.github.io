@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workshop on Hormones & Well-being
+title: Hormone Workshops 
 modal-id: 1
 date: 2024-04-10
 img: workshop.jpg
