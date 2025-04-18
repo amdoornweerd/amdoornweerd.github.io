@@ -84,9 +84,8 @@ hr.star-primary:after {
 }
 
 header {
-    text-align: center;
-    color: #fff;
-    background: #{{ site.color.primary }};
+  background: #bf4f4f;
+  color: #fff;
 }
 
 header .container {
@@ -184,8 +183,8 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
+  background: #bf4f4f;
+  color: #fff;
 }
 
 @media(max-width:767px) {
@@ -356,8 +355,8 @@ form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
 
-footer {
-    color: #fff;
+footer .footer-above {
+  background-color: #d8cbc3;
 }
 
 footer h3 {
