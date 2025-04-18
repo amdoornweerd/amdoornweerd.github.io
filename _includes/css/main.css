@@ -563,23 +563,24 @@ footer .footer-below {
   }
 }
 
-section:not(.success) {
-  color: #333; /* Or #111 for stronger contrast */
+
+
+
+.research-item h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
 }
 
-section h2, section p, section li {
-  color: #222; /* Makes sure headers and content stay visible */
-}
-
-
-
-.research-item .meta {
+.research-item h3 .meta {
   font-size: 0.9rem;
+  font-style: italic;
   font-weight: normal;
   text-transform: none;
-  font-style: italic;
-  color: #666;
-  margin-left: 0.5rem;
+  color: #555;
+  margin-left: 0.4rem;
 }
+
 
 
