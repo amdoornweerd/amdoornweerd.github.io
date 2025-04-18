@@ -552,4 +552,8 @@ footer .footer-below {
 }
 
 
+.about-section {
+  background-color: #f9f9f9; /* Or use #ffffff for a clean white look */
+  padding: 100px 0;
+}
 
