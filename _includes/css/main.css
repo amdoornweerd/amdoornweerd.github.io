@@ -583,6 +583,19 @@ footer .footer-below {
 }
 
 
+/* Fix for text visibility on light sections */
+section:not(.success),
+section:not(.success) p,
+section:not(.success) li,
+section:not(.success) h1,
+section:not(.success) h2,
+section:not(.success) h3,
+section:not(.success) h4,
+section:not(.success) a {
+  color: #{{ site.color.secondary-dark }};
+}
+
+
 section:not(.success),
 section:not(.success) * {
   color: #{{ site.color.secondary-dark }};
