@@ -551,4 +551,11 @@ footer .footer-below {
   }
 }
 
+section:not(.success) {
+  color: #333; /* Or #111 for stronger contrast */
+}
+
+section h2, section p, section li {
+  color: #222; /* Makes sure headers and content stay visible */
+}
 
