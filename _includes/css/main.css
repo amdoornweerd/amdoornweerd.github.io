@@ -571,12 +571,7 @@ section h2, section p, section li {
   color: #222; /* Makes sure headers and content stay visible */
 }
 
-.research-item h3 {
-  font-size: 1.2rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 0.5rem;
-}
+
 
 .research-item .meta {
   font-size: 0.9rem;
