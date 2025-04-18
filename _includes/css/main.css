@@ -584,21 +584,11 @@ footer .footer-below {
 
 
 /* Fix for text visibility on light sections */
-section:not(.success),
-section:not(.success) p,
-section:not(.success) li,
-section:not(.success) h1,
-section:not(.success) h2,
-section:not(.success) h3,
-section:not(.success) h4,
-section:not(.success) a {
-color: #233140;
+section:not(.success) {
+  color: #333; /* Or #111 for stronger contrast */
 }
 
-
-section:not(.success),
-section:not(.success) * {
-color: #233140;
+section h2, section p, section li {
+  color: #222; /* Makes sure headers and content stay visible */
 }
-
 
