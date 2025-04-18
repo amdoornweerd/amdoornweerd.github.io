@@ -7,6 +7,5 @@ img: media.jpeg
 alt: image-alt
 project-date: Ongoing
 client: Clue (cycle tracking app)
-category: Web Development
 description: I write evidence-based, accessible articles that translate academic research into engaging public communication.
 ---
