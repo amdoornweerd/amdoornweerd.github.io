@@ -139,12 +139,11 @@ header .intro-text .skills {
     color: #bf4f4f; /* terracotta */
     font-weight: 600;   /* Optional: Add subtle underline or weight */
 }
-
-.navbar .navbar-nav > li > a:hover,
-.navbar .navbar-nav > li > a:focus {
-  color: #a63636; /* darker terracotta on hover */
-  text-decoration: underline;
-}
+  .navbar .navbar-nav > li > a:hover,
+  .navbar .navbar-nav > li > a:focus {
+    color: #a63636; /* darker terracotta on hover */
+    text-decoration: underline;
+  }
 
     .navbar-fixed-top .navbar-brand {
         font-size: 2em;
