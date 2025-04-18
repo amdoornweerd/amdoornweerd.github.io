@@ -565,6 +565,12 @@ footer .footer-below {
 
 
 
+.research-item h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
 
 
 .research-item h3 .meta {
