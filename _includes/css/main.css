@@ -135,15 +135,17 @@ header .intro-text .skills {
         transition: padding .3s;
     }
   
-  .navbar .navbar-nav > li > a {
-    color: #bf4f4f; /* terracotta */
-    font-weight: 600;   /* Optional: Add subtle underline or weight */
+.navbar-default .navbar-nav > li > a {
+  color: #bf4f4f; /* your primary terracotta color */
+  font-weight: 600;
 }
-  .navbar .navbar-nav > li > a:hover,
-  .navbar .navbar-nav > li > a:focus {
-    color: #a63636; /* darker terracotta on hover */
-    text-decoration: underline;
-  }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #a63636; /* a deeper terracotta on hover */
+  text-decoration: underline;
+}
+
 
     .navbar-fixed-top .navbar-brand {
         font-size: 2em;
