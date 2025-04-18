@@ -7,5 +7,5 @@ alt: image-alt
 project-date: Dec 2024
 client: Women Empowerment @ Work
 category: Web Development
-description: Consulted on a validated questionnaire to administer to users of a knowledgebank on women's health at work.  
+description: I provide consulting on psychological research, hormonal cycles, and well-being strategies for health-focused teams and startups.  
 ---
