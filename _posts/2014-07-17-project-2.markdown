@@ -7,6 +7,5 @@ img: webinar.jpeg
 alt: image-alt
 project-date: ongoing
 client: Female Leadership Institute
-category: Web Development
 description: I offer engaging webinars on hormonal science, emotion, and mental health for academic, public, and corporate audiences.
 ---
