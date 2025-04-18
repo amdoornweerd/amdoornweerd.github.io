@@ -4,8 +4,8 @@ modal-id: 2
 date: 2014-07-17
 img: webinar.jpeg
 alt: image-alt
-project-date: April 2014
+project-date: ongoing
 client: Female Leadership Institute
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: I offer engaging webinars on hormonal science, emotion, and mental health for academic, public, and corporate audiences.
 ---
