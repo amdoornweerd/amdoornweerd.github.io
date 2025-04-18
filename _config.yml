@@ -31,7 +31,7 @@ disqus_shortname: myshortname
 #  secondary-dark: 233140 #A2122F
 
 color:
-  primary: bf4f4f           # warm terracotta
+  primary: #8e2141           # warm terracotta
   primary-rgb: "191,79,79"
   secondary: f5f0ec         # soft off-white
   secondary-dark: d8cbc3    # muted warm grey
