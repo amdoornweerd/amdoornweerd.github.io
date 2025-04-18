@@ -571,3 +571,12 @@ section h2, section p, section li {
   color: #222; /* Makes sure headers and content stay visible */
 }
 
+.research-item .meta {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #555;
+  text-transform: none;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
