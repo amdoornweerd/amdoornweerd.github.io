@@ -1,11 +1,12 @@
 ---
 layout: default
+title: Science Consultant
 modal-id: 3
 date: 2014-07-16
 img: scienceconsultant.jpg
 alt: image-alt
 project-date: Dec 2024
 client: Women Empowerment @ Work
-category: Web Development
+{# category: Web Development #}
 description: I provide consulting on psychological research, hormonal cycles, and well-being strategies for health-focused teams and startups.  
 ---
