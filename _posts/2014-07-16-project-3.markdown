@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: scienceconsultant.png
+img: scienceconsultant.jpg
 alt: image-alt
 project-date: Dec 2024
 client: Women Empowerment @ Work
