@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Webinars Hormones & Well-being
+title: Hormone Webinars 
 modal-id: 2
 date: 2014-07-17
 img: webinar.jpeg
