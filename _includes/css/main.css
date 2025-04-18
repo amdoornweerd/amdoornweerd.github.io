@@ -583,7 +583,9 @@ footer .footer-below {
 }
 
 
-section:not(.success) {
-  color: #222; /* ensures dark text on light sections */
+section:not(.success),
+section:not(.success) * {
+  color: #{{ site.color.secondary-dark }};
 }
+
 
