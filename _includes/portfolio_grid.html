@@ -5,17 +5,13 @@
     <div class="row">
 
       {% for post in site.posts %}
-      <div class="col-sm-6 col-md-3 portfolio-item">
-          <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img src="img/portfolio/{{ post.img }}" alt="{{ post.alt }}" class="img-responsive">
-          </a>
-        </div>
-      {% endfor %}
+      <div class="col-sm-6 col-md-3 portfolio-item text-center"> 
+        <h4>{{ post.title }}</h4>
+        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+          <img src="img/portfolio/{{ post.img }}" class="img-responsive center-block" alt="{{ post.alt }}">
+        </a>
+      </div>
+
 
     </div>
   </div>
