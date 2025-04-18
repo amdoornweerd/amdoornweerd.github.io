@@ -84,8 +84,9 @@ hr.star-primary:after {
 }
 
 header {
-  background: #bf4f4f;
-  color: #fff;
+    text-align: center;
+    color: #fff;
+    background: #{{ site.color.primary }};
 }
 
 header .container {
@@ -183,8 +184,8 @@ section h2 {
 }
 
 section.success {
-  background: #bf4f4f;
-  color: #fff;
+    color: #fff;
+    background: #{{ site.color.primary }};
 }
 
 @media(max-width:767px) {
@@ -355,8 +356,8 @@ form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
 
-footer .footer-above {
-  background-color: #d8cbc3;
+footer {
+    color: #fff;
 }
 
 footer h3 {
@@ -550,9 +551,4 @@ footer .footer-below {
   }
 }
 
-
-.about-section {
-  background-color: #f9f9f9; /* Or use #ffffff for a clean white look */
-  padding: 100px 0;
-}
 
