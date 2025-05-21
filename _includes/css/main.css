@@ -228,7 +228,7 @@ section.success {
 }
 
 #portfolio .portfolio-item:hover h4 {
-  color: #e31b23; /* red on hover */
+  color: #{{ site.color.primary }}; /* red on hover */
 }
 
 
@@ -391,7 +391,7 @@ footer {
 
 footer h3 {
     margin-bottom: 30px;
-  color: #e31b23; 
+  color: #{{ site.color.primary }};; 
 }
 
 footer .footer-above {
@@ -461,7 +461,7 @@ footer .footer-below {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
-  color: #e31b23;
+  color: #{{ site.color.primary }};
 }
 
 .portfolio-modal .modal-content img {
@@ -509,6 +509,7 @@ footer .footer-below {
 
 .navbar-nav>.active>a {
     background-color: #{{ site.color.secondary-dark }} !important;
+color: #{{ site.color.primary }};
 }
 
 /* Fix modal mouse wheel issues */
