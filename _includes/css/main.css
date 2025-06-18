@@ -85,7 +85,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #bf4f4f; /* your primary terracotta color */
     background: #{{ site.color.primary }};
 }
 
