@@ -75,7 +75,8 @@ defaults:
       path: ""
       type: "posts"
     values:
-      permalink: ""
+      permalink: /:year/:month/:day/:title/
+
 
 plugins:
   - jekyll-sitemap
