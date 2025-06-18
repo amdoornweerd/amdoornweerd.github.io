@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amdoornweerd.github.io/sitemap.xml
