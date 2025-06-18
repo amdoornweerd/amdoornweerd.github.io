@@ -636,3 +636,8 @@ form textarea::placeholder {
   color: #444;
   opacity: 1; /* Makes sure it's fully visible in all browsers */
 }
+
+#contactForm input,
+#contactForm textarea {
+  color: #000 !important;
+}
