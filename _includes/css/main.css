@@ -631,3 +631,8 @@ form textarea {
   color: #000 !important;
 }
 
+form input::placeholder,
+form textarea::placeholder {
+  color: #444;
+  opacity: 1; /* Makes sure it's fully visible in all browsers */
+}
