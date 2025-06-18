@@ -2,17 +2,17 @@
 title: Anne Marieke Doornweerd
 email: amdoornweerd@gmail.com
 url: https://amdoornweerd.github.io/
-description: ""Anne Marieke Doornweerd, PhD, is a researcher and science communicator specializing in female hormonal mental health, including menstruation, contraception, and menopause.""
+description: "Anne Marieke Doornweerd, PhD, is a researcher and science communicator focused on how hormones affect mental health across the female lifespan."
 keywords: "female hormones, menstrual cycle, hormonal contraception, mental health, women's health, female health, the pill, IUD, menopause, depression, anxiety, emotions"
 skills: "Research Scientist - Science Communicator - Women's Health Expert"
-meta_author: Doornweerd AnneMarieke 
+meta_author: Doornweerd AnneMarieke
 
 # Google webmaster tools
 google_verify: -1yScNe9CXqY1A0O9sMpgyzoX6sKNbwO0hXt-w_zPr4
 
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+# Bing webmaster tools
 bing_verify:
+
 
 # Contact form:
 # - static : pass through formspree.io to validate email sending
