@@ -80,3 +80,6 @@ defaults:
 
 plugins:
   - jekyll-sitemap
+
+sitemap:
+  filename: sitemap-index.xml
