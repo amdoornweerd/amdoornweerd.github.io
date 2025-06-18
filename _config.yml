@@ -8,7 +8,7 @@ skills: "Research Scientist - Science Communicator - Women's Health Expert"
 meta_author: Doornweerd AnneMarieke 
 
 # Google webmaster tools
-google_verify: googlefd4005db0d134ded.html
+google_verify: <meta name="google-site-verification" content="-1yScNe9CXqY1A0O9sMpgyzoX6sKNbwO0hXt-w_zPr4" />
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
@@ -75,3 +75,6 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+plugins:
+  - jekyll-sitemap
