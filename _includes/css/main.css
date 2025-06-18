@@ -626,4 +626,8 @@ section h2, section p, section li {
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
 }
 
+form input,
+form textarea {
+  color: #000 !important;
+}
 
