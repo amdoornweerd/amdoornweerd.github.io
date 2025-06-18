@@ -140,12 +140,12 @@ header .intro-text .skills {
   font-weight: 600;
 }
 .navbar .navbar-brand {
-  color: #C1440E !important; /* Terracotta color */
+  color: #bf4f4f !important; /* Terracotta color */
 }
 
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
-  color: #C1440E !important; /* Keep it terracotta on hover */
+  color: #bf4f4f !important; /* Keep it terracotta on hover */
 }
 
   
