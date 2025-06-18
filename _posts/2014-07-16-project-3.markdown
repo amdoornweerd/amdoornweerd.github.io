@@ -3,7 +3,7 @@ layout: default
 title: Science Consultant
 permalink: /consultant/
 modal-id: 3
-date: 2014-07-16
+date: 2025-06-18
 img: scienceconsultant.jpg
 alt: image-alt
 project-date: Dec 2024
