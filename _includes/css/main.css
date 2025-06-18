@@ -140,6 +140,10 @@ header .intro-text .skills {
   font-weight: 600;
 }
 
+  .navbar-brand {
+  color: #C1440E !important; /* Replace with your terracotta hex if different */
+}
+  
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #a63636; /* a deeper terracotta on hover */
