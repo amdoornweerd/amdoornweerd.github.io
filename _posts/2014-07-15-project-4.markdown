@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Science Writing
+permalink: /science-writing/
 modal-id: 4
 date: 2014-07-15
 img: media.jpeg
