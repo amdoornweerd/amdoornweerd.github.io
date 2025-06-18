@@ -3,7 +3,7 @@ layout: default
 title: Hormone Webinars 
 permalink: /webinars/
 modal-id: 2
-date: 2014-07-17
+date: 2025-06-18
 img: webinar.jpeg
 alt: image-alt
 project-date: ongoing
