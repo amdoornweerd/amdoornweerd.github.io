@@ -136,16 +136,16 @@ header .intro-text .skills {
     }
   
 .navbar-default .navbar-nav > li > a {
-  color: 8e2141; /* your primary terracotta color */
+  color: #8e2141; /* your primary terracotta color */
   font-weight: 600;
 }
 .navbar .navbar-brand {
-  color: 8e2141 !important; /* Terracotta color */
+  color: #8e2141 !important; /* Terracotta color */
 }
 
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
-  color: 8e2141 !important; /* Keep it terracotta on hover */
+  color: #8e2141 !important; /* Keep it terracotta on hover */
 }
 
   
