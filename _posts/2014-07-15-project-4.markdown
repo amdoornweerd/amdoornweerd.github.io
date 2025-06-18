@@ -7,5 +7,5 @@ img: media.jpeg
 alt: image-alt
 project-date: Ongoing
 client: Clue (cycle tracking app) 
-description: I write evidence-based, accessible articles that translate academic research into engaging public communication.  Published an article with Hello Clue on how the menstrual cycle may affect your brain and emotions.
---- <li><a href="https://helloclue.com/articles/menstrual-cycle/how-does-the-menstrual-cycle-reshape-your-brain">click here</a></li> 
+description: I write evidence-based, accessible articles that translate academic research into engaging public communication.  Published an article with Hello Clue on how the menstrual cycle may affect your brain and emotions. <li><a href="https://helloclue.com/articles/menstrual-cycle/how-does-the-menstrual-cycle-reshape-your-brain">click here</a></li> 
+---
