@@ -118,6 +118,7 @@ header .intro-text .skills {
         padding-bottom: 100px;
     }
 
+
     header .intro-text .name {
         font-size: 4.75em;
     }
@@ -128,48 +129,50 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
-    .navbar-fixed-top {
-        padding: 25px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-  
+  .navbar-fixed-top {
+    padding: 25px 0;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+  }
+
+  .navbar-fixed-top .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+  }
+
+  .navbar-fixed-top.navbar-shrink {
+    padding: 10px 0;
+  }
+
+  .navbar-fixed-top.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+/* ✅ Now outside media query – applies to all screen sizes */
 .navbar-default .navbar-nav > li > a {
-  color: #8e2141; /* your primary terracotta color */
+  color: #8e2141;
   font-weight: 600;
 }
 
-  .navbar-default .navbar-brand {
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #a63636;
+  text-decoration: underline;
+}
+
+.navbar-default .navbar-brand {
   color: #8e2141 !important;
 }
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #8e2141 !important;
 }
-  
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #a63636; /* a deeper terracotta on hover */
-  text-decoration: underline;
-}
 
-
-    .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
-    }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-}
 
 .navbar {
     text-transform: uppercase;
